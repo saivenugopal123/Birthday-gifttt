@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Lohitha ❤️</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+    scroll-padding-top:24px;
+}
+
+body{
+    font-family:"Palatino Linotype","Book Antiqua",Georgia,serif;
+    background:#08000d;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* =========================
+   BACKGROUND
+========================= */
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    z-index:-10;
+    background:
+        radial-gradient(circle at 20% 20%,#ff168044,transparent 30%),
+        radial-gradient(circle at 80% 70%,#9d00ff33,transparent 35%),
+        radial-gradient(circle at 50% 50%,#ff006622,transparent 50%);
+}
+
+/* =========================
+   STARS
+========================= */
+
+.stars{
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    z-index:-5;
+}
+
+.star{
+    position:absolute;
+    width:3px;
+    height:3px;
+    background:white;
+    border-radius:50%;
+    animation:twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle{
+    from{
+        opacity:.15;
+        transform:scale(.5);
+    }
+    to{
+        opacity:1;
+        transform:scale(1.4);
+    }
+}
+
+/* =========================
+   OPENING SCREEN
+========================= */
+
+.opening{
+    position:fixed;
+    inset:0;
+    z-index:9999;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:
+        radial-gradient(circle at center,#32001f,#08000d 70%);
+    transition:1.2s ease;
+}
+
+.open-content{
+    padding:30px;
+    max-width:800px;
+}
+
+.open-content .date{
+    color:#ff9fbd;
+    letter-spacing:5px;
+    font-size:14px;
+    margin-bottom:25px;
+}
+
+.open-content h1{
+    font-size:clamp(45px,9vw,90px);
+    line-height:1;
+    margin-bottom:25px;
+}
+
+.open-content h1 span{
+    background:linear-gradient(
+        90deg,
+        #ff4f8b,
+        #ffffff,
+        #ff78a7
+    );
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.open-content p{
+    color:#ffd9e5;
+    font-size:18px;
+    line-height:1.7;
+    margin-bottom:35px;
+}
+
+.open-btn{
+    padding:17px 38px;
+    border-radius:50px;
+    border:1px solid #ff679b;
+    background:linear-gradient(
+        90deg,
+        #ff397c,
+        #ff7ca5
+    );
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    box-shadow:0 15px 40px #ff397c55;
+    transition:.3s;
+}
+
+.open-btn:hover{
+    transform:scale(1.08);
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.mini{
+    color:#ff88ad;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    font-size:13px;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-size:clamp(50px,10vw,110px);
+    line-height:.95;
+    margin-bottom:35px;
+}
+
+.hero h1 span{
+    background:linear-gradient(
+        90deg,
+        #ff4e8a,
+        #fff,
+        #ff75a6
+    );
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.hero-text{
+    color:#ffe0ea;
+    font-size:20px;
+    line-height:1.8;
+}
+
+.scroll{
+    margin-top:60px;
+    color:#ff83aa;
+    animation:bounce 1.5s infinite;
+}
+
+@keyframes bounce{
+    50%{
+        transform:translateY(10px);
+    }
+}
+
+/* =========================
+   GENERAL SECTIONS
+========================= */
+
+section{
+    max-width:1050px;
+    margin:auto;
+    padding:100px 20px;
+}
+
+.title{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:55px;
+}
+
+.title span{
+    color:#ff6699;
+}
+
+/* =========================
+   COUNTDOWN
+========================= */
+
+.countdown-box{
+    text-align:center;
+}
+
+.countdown{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.time{
+    width:120px;
+    padding:25px 10px;
+    border-radius:20px;
+    background:#ffffff09;
+    border:1px solid #ffffff18;
+    backdrop-filter:blur(10px);
+}
+
+.time strong{
+    display:block;
+    font-size:35px;
+    color:#ff709d;
+}
+
+
+/* Telugu birthday experience */
+:root{
+    color-scheme:dark;
+    --rose:#f06d86;
+    --gold:#ffd58a;
+}
+
+body::before{
+    background:
+        radial-gradient(ellipse at 12% 12%,#d94d6844,transparent 32%),
+        radial-gradient(ellipse at 85% 45%,#087a7260,transparent 35%),
+        radial-gradient(ellipse at 52% 92%,#f2a84526,transparent 38%),
+        linear-gradient(145deg,#100914,#160b1c 52%,#091b19);
+}
+
+.opening{
+    background:radial-gradient(ellipse at 50% 45%,#48212f,#100914 72%);
+}
+
+.open-content .date,.mini{color:var(--gold);letter-spacing:2px}
+
+.open-content h1 span,.hero h1 span{
+    background:linear-gradient(100deg,#ffd889,#ff7098 52%,#f4fff2);
+    background-clip:text;
+    -webkit-background-clip:text;
+}
+
+.open-btn,.surprise-btn{
+    background:linear-gradient(110deg,#e84c79,#f39c60);
+    border-color:#ff9a9f;
+}
+
+.title span,.final h2,.time strong{color:var(--gold)}
+.time,.love-box,.card{background:linear-gradient(145deg,#ffffff0d,#ffffff04);border-color:#ffffff20;border-radius:12px}
+.photo{border-radius:12px}
+
+.chapter-links{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:30px}
+.chapter-links a{color:#ffe8d0;border:1px solid #ffffff35;border-radius:999px;padding:8px 15px;text-decoration:none;transition:.25s}
+.chapter-links a:hover,.chapter-links a:focus-visible{background:#ff648f30;transform:translateY(-3px)}
+
+.card{cursor:pointer}
+.card:focus-visible,.wish-button:focus-visible,.open-btn:focus-visible,.surprise-btn:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+.card .card-more{display:none;color:#ffe0b7;margin-top:14px}
+.card.is-open .card-more{display:block;animation:appear .35s ease}
+
+.wish-button{border:1px solid #ffd88980;border-radius:999px;padding:12px 22px;margin-top:24px;color:#fff4df;background:#ffffff10;font:inherit;cursor:pointer}
+.cake.wished .flame{display:none}
+.cake.wished{filter:saturate(.75);transform:translateY(5px)}
+.wish-message{min-height:2em;color:var(--gold);margin-top:14px}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+@media(prefers-reduced-motion:reduce){
+    *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}
+    .reveal{opacity:1;transform:none}
+}
+.time small{
+    color:#cdaab8;
+}
+
+/* =========================
+   LOVE LETTER
+========================= */
+
+.love-box{
+    padding:50px;
+    border-radius:30px;
+    background:#ffffff08;
+    border:1px solid #ffffff15;
+    backdrop-filter:blur(15px);
+    box-shadow:0 30px 80px #00000066;
+}
+
+.typing{
+    color:#ffe3ec;
+    font-size:19px;
+    line-height:2;
+    min-height:350px;
+    white-space:pre-line;
+}
+
+.cursor{
+    border-right:2px solid #ff6c9b;
+    animation:blink .7s infinite;
+}
+
+@keyframes blink{
+    50%{
+        border-color:transparent;
+    }
+}
+
+.signature{
+    text-align:right;
+    margin-top:30px;
+    color:#ff8fb1;
+    font-size:20px;
+}
+
+/* =========================
+   PHOTO MEMORIES
+========================= */
+
+.photos{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.photo{
+    height:390px;
+    overflow:hidden;
+    border-radius:25px;
+    border:1px solid #ffffff18;
+    position:relative;
+    background:#16000e;
+}
+
+.photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.7s;
+}
+
+.photo:hover img{
+    transform:scale(1.1);
+}
+
+.photo::after{
+    content:"❤️";
+    position:absolute;
+    right:18px;
+    bottom:15px;
+    font-size:25px;
+    filter:drop-shadow(0 5px 10px black);
+}
+
+/* =========================
+   LOVE CARDS
+========================= */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.card{
+    padding:35px 25px;
+    text-align:center;
+    background:#ffffff07;
+    border:1px solid #ffffff12;
+    border-radius:25px;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-12px);
+    background:#ff3e7c16;
+    border-color:#ff679b44;
+}
+
+.emoji{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.card h3{
+    font-size:21px;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#d9bac6;
+    line-height:1.7;
+}
+
+/* =========================
+   CAKE
+========================= */
+
+.cake-section{
+    text-align:center;
+}
+
+.cake{
+    width:190px;
+    height:125px;
+    background:linear-gradient(
+        #ff85a9,
+        #ff4f87
+    );
+    margin:80px auto 35px;
+    border-radius:15px 15px 25px 25px;
+    position:relative;
+    box-shadow:0 25px 60px #ff397c55;
+}
+
+.cake::before{
+    content:"";
+    position:absolute;
+    width:210px;
+    height:38px;
+    left:-10px;
+    top:-18px;
+    background:#ffc1d4;
+    border-radius:50%;
+}
+
+.candle{
+    position:absolute;
+    width:12px;
+    height:48px;
+    background:white;
+    left:89px;
+    top:-62px;
+}
+
+.flame{
+    position:absolute;
+    width:21px;
+    height:30px;
+    left:-4px;
+    top:-28px;
+    background:#ffd15c;
+    border-radius:50% 50% 50% 0;
+    transform:rotate(-45deg);
+    animation:flame .5s infinite alternate;
+}
+
+@keyframes flame{
+    to{
+        transform:rotate(-45deg) scale(1.15);
+    }
+}
+
+/* =========================
+   SURPRISE
+========================= */
+
+.surprise{
+    text-align:center;
+}
+
+.surprise-btn{
+    padding:18px 42px;
+    border:none;
+    border-radius:50px;
+    background:linear-gradient(
+        90deg,
+        #ff397c,
+        #ff83aa
+    );
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    box-shadow:0 15px 40px #ff397c55;
+    transition:.3s;
+}
+
+.surprise-btn:hover{
+    transform:scale(1.08);
+}
+
+.final{
+    display:none;
+    margin-top:65px;
+    animation:appear 1s ease;
+}
+
+.final h2{
+    font-size:clamp(42px,8vw,80px);
+    color:#ff75a3;
+    margin-bottom:30px;
+}
+
+.final p{
+    max-width:760px;
+    margin:auto;
+    color:#ffe1eb;
+    font-size:20px;
+    line-height:1.9;
+}
+
+.final strong{
+    color:#ff83aa;
+}
+
+/* =========================
+   FLOATING HEARTS
+========================= */
+
+.heart{
+    position:fixed;
+    bottom:-40px;
+    pointer-events:none;
+    z-index:50;
+    animation:float linear forwards;
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0) scale(.6) rotate(0);
+        opacity:0;
+    }
+
+    20%{
+        opacity:1;
+    }
+
+    100%{
+        transform:
+            translateY(-110vh)
+            scale(1.5)
+            rotate(30deg);
+        opacity:0;
+    }
+}
+
+/* =========================
+   CONFETTI
+========================= */
+
+.confetti{
+    position:fixed;
+    top:-20px;
+    width:9px;
+    height:9px;
+    z-index:10000;
+    pointer-events:none;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    text-align:center;
+    padding:70px 20px;
+    color:#8e6877;
+}
+
+footer span{
+    color:#ff608f;
+}
+
+/* =========================
+   ANIMATION
+========================= */
+
+@keyframes appear{
+    from{
+        opacity:0;
+        transform:translateY(30px) scale(.9);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0) scale(1);
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:700px){
+
+    section{
+        padding:75px 18px;
+    }
+
+    .photos,
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .photo{
+        height:420px;
+    }
+
+    .love-box{
+        padding:28px;
+    }
+
+    .typing{
+        font-size:16px;
+        line-height:1.8;
+        min-height:480px;
+    }
+
+    .title{
+        font-size:32px;
+    }
+
+    .time{
+        width:90px;
+    }
+
+    .time strong{
+        font-size:28px;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     OPENING
+========================= -->
+
+<div class="opening" id="opening">
+
+    <div class="open-content">
+
+        <div class="date">
+            OCTOBER 1 • A DAY TO CELEBRATE ❤️
+        </div>
+
+        <h1>
+            A little surprise<br>
+            <span>for Lohitha</span>
+        </h1>
+
+        <p>
+            A birthday gift made with love<br>
+            for someone who means so much to me...
+        </p>
+
+        <button class="open-btn" onclick="openWebsite()">
+            Open your surprise ✨
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     STARS
+========================= -->
+
+<div class="stars" id="stars"></div>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<div class="hero">
+
+    <div class="hero-content">
+
+        <div class="mini">
+            OCTOBER 1 • YOUR SPECIAL DAY ❤️
+        </div>
+
+        <h1>
+            Happy Birthday<br>
+            <span>Lohitha</span> ✨
+        </h1>
+
+        <p class="hero-text">
+
+            Today is more than just October 1...
+
+            <br><br>
+
+            It's the day someone wonderful
+            came into the world.
+
+            <br><br>
+
+            And I'm grateful that person became
+            such a special part of my life. ❤️
+
+        </p>
+
+        <div class="scroll">
+            ↓ Keep scrolling to see what makes you special
+        </div>
+
+        <nav class="chapter-links" aria-label="Page chapters">
+            <a href="#letter">A note for you</a>
+            <a href="#memories">Our memories</a>
+            <a href="#special">Why you're special</a>
+            <a href="#wish">Make a wish</a>
+        </nav>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     COUNTDOWN
+========================= -->
+
+<section class="countdown-box">
+
+    <h2 class="title">
+        Counting down to <span>your day</span> 🎉
+    </h2>
+
+    <div class="countdown">
+
+        <div class="time">
+            <strong id="days">00</strong>
+            <small>Days</small>
+        </div>
+
+        <div class="time">
+            <strong id="hours">00</strong>
+            <small>Hours</small>
+        </div>
+
+        <div class="time">
+            <strong id="minutes">00</strong>
+            <small>Minutes</small>
+        </div>
+
+        <div class="time">
+            <strong id="seconds">00</strong>
+            <small>Seconds</small>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     LOVE LETTER
+========================= -->
+
+<section id="letter">
+
+    <h2 class="title">
+        What you <span>mean to me</span> 💌
+    </h2>
+
+    <div class="love-box">
+
+        <div class="typing">
+            <span id="typingText"></span><span class="cursor"></span>
+        </div>
+
+        <div class="signature">
+            With all my best wishes,<br>
+            Sai ❤️
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MEMORIES
+========================= -->
+
+<section id="memories">
+
+    <h2 class="title">
+        Our little <span>memories</span> 📸
+    </h2>
+
+    <div class="photos">
+
+        <div class="photo">
+            <img src="photo1.jpg" alt="Our Memory">
+        </div>
+
+        <div class="photo">
+            <img src="photo2.jpg" alt="Our Memory">
+        </div>
+
+        <div class="photo">
+            <img src="photo3.jpg" alt="Our Memory">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     WHY SPECIAL
+========================= -->
+
+<section id="special">
+
+    <h2 class="title">
+        Why you're <span>so special</span> ❤️
+    </h2>
+
+    <div class="cards">
+
+        <div class="card" role="button" tabindex="0" aria-expanded="false">
+
+            <div class="emoji">
+                😊
+            </div>
+
+            <h3>Your smile</h3>
+
+            <p>
+                Your smile can make an ordinary moment feel special.
+            </p>
+            <p class="card-more">Your happiness has a way of reaching everyone around you. I hope that smile stays with you always. ❤️</p>
+
+        </div>
+
+
+        <div class="card" role="button" tabindex="0" aria-expanded="false">
+
+            <div class="emoji">
+                🥰
+            </div>
+
+            <h3>Your presence</h3>
+
+            <p>
+                When you're around, it feels like nothing else is missing.
+            </p>
+            <p class="card-more">Your words and your presence bring a calm happiness. I'm grateful to have you in my life.</p>
+
+        </div>
+
+
+        <div class="card" role="button" tabindex="0" aria-expanded="false">
+
+            <div class="emoji">
+                ❤️
+            </div>
+
+            <h3>Simply you</h3>
+
+            <p>
+                Your genuine, natural way of being is one of the things I admire most.
+            </p>
+            <p class="card-more">Your kindness and your honest heart mean so much to me. Never stop being wonderfully you.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     BIRTHDAY CAKE
+========================= -->
+
+<section class="cake-section" id="wish">
+
+    <h2 class="title">
+        Make a <span>birthday wish</span> 🎂
+    </h2>
+
+    <div class="cake">
+
+        <div class="candle">
+
+            <div class="flame"></div>
+
+        </div>
+
+    </div>
+
+    <p style="
+        color:#ffdce8;
+        font-size:18px;
+        line-height:1.8;
+    ">
+
+        Close your eyes...
+
+        <br>
+
+        Make a beautiful wish. ✨
+
+        <br><br>
+
+        You deserve all the happiness and beautiful things life has to offer. ❤️
+
+    </p>
+
+    <button class="wish-button" id="wishButton" type="button">Blow out the candle and make a wish</button>
+    <p class="wish-message" id="wishMessage" aria-live="polite"></p>
+
+</section>
+
+
+<!-- =========================
+     FINAL SURPRISE
+========================= -->
+
+<section class="surprise">
+
+    <h2 class="title">
+        One last <span>little thing...</span> 💗
+    </h2>
+
+    <button
+        class="surprise-btn"
+        onclick="showFinal()">
+
+        Open my heart ❤️
+
+    </button>
+
+
+    <div class="final" id="final">
+
+        <h2>
+            Happy Birthday,<br>
+            Lohitha ❤️
+        </h2>
+
+        <p>
+
+            October 1 will always feel a little more special to me...
+
+            <br><br>
+
+            Because it's the day you came into the world.
+
+            <br><br>
+
+            Lohitha, I don't know if words can fully explain
+            how much you mean to me.
+
+            <br><br>
+
+            But I want you to know one thing today:
+
+            <br><br>
+
+            <strong>
+                You are truly someone special in my life.
+            </strong>
+
+            <br><br>
+
+            I always want to see you smile.
+
+            <br>
+
+            I want to celebrate your happiness.
+
+            <br>
+
+            I want to be there for you when life gets difficult.
+
+            <br>
+
+            I want to make many more beautiful memories with you.
+
+            <br><br>
+
+            I don't know exactly what the future holds...
+
+            <br><br>
+
+            But I'm truly grateful that
+            you became a part of my life.
+
+            <br><br>
+
+            You deserve happiness.
+            You deserve kindness.
+            You deserve every beautiful thing.
+
+            <br><br>
+
+            <strong>
+                Happy Birthday, Lohitha. ❤️
+            </strong>
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    Made with endless love
+    <span>❤️</span>
+    for Lohitha
+
+    <br><br>
+
+    October 1 will always be special. ✨
+
+</footer>
+
+
+<script>
+
+/* =========================
+   OPEN WEBSITE
+========================= */
+
+function openWebsite(){
+
+    const opening =
+        document.getElementById("opening");
+
+    opening.style.opacity="0";
+
+    setTimeout(function(){
+
+        opening.style.display="none";
+
+    },1200);
+
+    createHearts(30);
+}
+
+
+/* =========================
+   STARS
+========================= */
+
+const stars =
+    document.getElementById("stars");
+
+for(let i=0;i<120;i++){
+
+    const star =
+        document.createElement("div");
+
+    star.className="star";
+
+    star.style.left =
+        Math.random()*100+"%";
+
+    star.style.top =
+        Math.random()*100+"%";
+
+    star.style.animationDelay =
+        Math.random()*3+"s";
+
+    stars.appendChild(star);
+}
+
+
+/* =========================
+   COUNTDOWN
+========================= */
+
+function updateCountdown(){
+
+    const now = new Date();
+
+    let year = now.getFullYear();
+
+    let birthday =
+        new Date(year,9,1,0,0,0);
+
+    if(now > birthday){
+
+        birthday =
+            new Date(year+1,9,1,0,0,0);
+
+    }
+
+    const difference =
+        birthday - now;
+
+    const days =
+        Math.floor(
+            difference /
+            (1000*60*60*24)
+        );
+
+    const hours =
+        Math.floor(
+            difference /
+            (1000*60*60)
+        ) % 24;
+
+    const minutes =
+        Math.floor(
+            difference /
+            (1000*60)
+        ) % 60;
+
+    const seconds =
+        Math.floor(
+            difference / 1000
+        ) % 60;
+
+    document.getElementById("days")
+        .innerText =
+        String(days).padStart(2,"0");
+
+    document.getElementById("hours")
+        .innerText =
+        String(hours).padStart(2,"0");
+
+    document.getElementById("minutes")
+        .innerText =
+        String(minutes).padStart(2,"0");
+
+    document.getElementById("seconds")
+        .innerText =
+        String(seconds).padStart(2,"0");
+}
+
+updateCountdown();
+
+setInterval(updateCountdown,1000);
+
+
+/* =========================
+   LOVE LETTER TYPING
+========================= */
+
+const loveText = `Happy Birthday, Lohitha. ❤️
+
+It's hard to put into words how much you mean to me, but today I want to try.
+
+Some people come into our lives and become important before we even realize it. That's what happened with you.
+
+Your smile, your words, your genuine heart, your presence... all of it has become special to me.
+
+Our story doesn't have to be perfect. I just want us to be honest, happy, and there for each other.
+
+I want to laugh with you, support you, celebrate your happiness, and make many more beautiful memories together.
+
+Today is your birthday, but I feel lucky too: the world got you on this day, and somehow you became part of my life.
+
+May your life be full of happiness, love, and kindness.
+
+Never forget how special you are.
+
+Happy Birthday, Lohitha. ❤️`;
+
+let letterIndex=0;
+
+function typeLetter(){
+
+    if(letterIndex < loveText.length){
+
+        document.getElementById("typingText")
+            .textContent +=
+            Array.from(loveText)[letterIndex];
+
+        letterIndex++;
+
+        setTimeout(
+            typeLetter,
+            25
+        );
+
+    }
+
+}
+
+setTimeout(typeLetter,1500);
+
+document.querySelectorAll(".card").forEach(function(card){
+    function toggleCard(){
+        const isOpen=card.classList.toggle("is-open");
+        card.setAttribute("aria-expanded",String(isOpen));
+    }
+
+    card.setAttribute("aria-expanded","false");
+    card.addEventListener("click",toggleCard);
+    card.addEventListener("keydown",function(event){
+        if(event.key==="Enter"||event.key===" "){
+            event.preventDefault();
+            toggleCard();
+        }
+    });
+});
+
+document.getElementById("wishButton").addEventListener("click",function(){
+    document.querySelector(".cake").classList.add("wished");
+    document.getElementById("wishMessage").textContent="May your wish come true! ✨";
+    createHearts(18);
+});
+
+const revealObserver=new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+        if(entry.isIntersecting){
+            entry.target.classList.add("visible");
+            revealObserver.unobserve(entry.target);
+        }
+    });
+},{threshold:.12});
+
+document.querySelectorAll("section").forEach(function(section){
+    section.classList.add("reveal");
+    revealObserver.observe(section);
+});
+
+
+/* =========================
+   FLOATING HEARTS
+========================= */
+
+function createHearts(amount){
+
+    for(let i=0;i<amount;i++){
+
+        const heart =
+            document.createElement("div");
+
+        heart.className="heart";
+
+        const heartTypes=[
+            "❤️",
+            "💕",
+            "💗",
+            "💖",
+            "💓",
+            "✨"
+        ];
+
+        heart.innerHTML =
+            heartTypes[
+                Math.floor(
+                    Math.random()*
+                    heartTypes.length
+                )
+            ];
+
+        heart.style.left =
+            Math.random()*100+"%";
+
+        heart.style.fontSize =
+            (15+
+            Math.random()*25)+"px";
+
+        heart.style.animationDuration =
+            (4+
+            Math.random()*5)+"s";
+
+        document.body.appendChild(heart);
+
+        setTimeout(
+            function(){
+                heart.remove();
+            },
+            9000
+        );
+    }
+}
+
+
+/* Continuous hearts */
+
+setInterval(
+    function(){
+
+        createHearts(1);
+
+    },
+    900
+);
+
+
+/* =========================
+   FINAL SURPRISE
+========================= */
+
+function showFinal(){
+
+    const final =
+        document.getElementById("final");
+
+    final.style.display="block";
+
+    createHearts(70);
+
+    createConfetti();
+
+    setTimeout(
+        function(){
+
+            final.scrollIntoView({
+                behavior:"smooth"
+            });
+
+        },
+        200
+    );
+}
+
+
+/* =========================
+   CONFETTI
+========================= */
+
+function createConfetti(){
+
+    const colors=[
+        "#ff4d88",
+        "#ffb3c9",
+        "#ffffff",
+        "#ffd166",
+        "#ff76a8"
+    ];
+
+    for(let i=0;i<150;i++){
+
+        const piece =
+            document.createElement("div");
+
+        piece.className="confetti";
+
+        piece.style.left =
+            Math.random()*100+"%";
+
+        piece.style.background =
+            colors[
+                Math.floor(
+                    Math.random()*colors.length
+                )
+            ];
+
+        piece.style.transform =
+            `rotate(${Math.random()*360}deg)`;
+
+        document.body.appendChild(piece);
+
+        piece.animate(
+
+            [
+                {
+                    transform:
+                    "translateY(0) rotate(0deg)",
+                    opacity:1
+                },
+
+                {
+                    transform:
+                    `translateY(${window.innerHeight+100}px)
+                     rotate(${Math.random()*1000}deg)`,
+                    opacity:0
+                }
+            ],
+
+            {
+                duration:
+                    2000+
+                    Math.random()*3000,
+
+                easing:"linear"
+            }
+        );
+
+        setTimeout(
+            function(){
+
+                piece.remove();
+
+            },
+            5500
+        );
+    }
+}
+
+</script>
+
+</body>
+</html>
